@@ -1,0 +1,27 @@
+*web design, responsive web design
+
+html, css, js, jq, bootstrap
+
+-- image to html
+-- psd to html
+-- pdf/text/doc to html
+-- layout/sketch/blueprint to html
+-- figma to html
+-- xd to html
+-- url/web to html
+-- website redesign
+
+
+
+
+*rouls
+
+--code commenting
+--sementic markup
+--reuse-block
+--seo opt code
+--speed opt code
+--cross browser support
+--cross platform support
+--error free code
+--validation chack

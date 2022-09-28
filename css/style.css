@@ -1,0 +1,187 @@
+/*common start*/
+body{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400;
+}
+/*common end*/
+/*header start*/
+header{
+padding: 20px 0;
+border-bottom: 2px solid #f0f2f4;
+}
+.container{
+margin: 0 auto; /* 2 container center*/
+width: 90%; /*1*/
+overflow: hidden; /*6*/ /*jaiga chere dise*/
+/*border: 1px solid red;*/
+}
+.logo{
+width: 9%; /*3*/
+float: left; /*5*/
+}
+.logo a{
+display: block; /*17*/
+}
+.logo a img{
+width: 100%; /*4 logo img responsive*/
+}
+.menu{
+width: 50%; /*3*/
+float: right; /*5*/
+}
+.menu ul{
+	float: right; /*16*/
+}
+.menu ul li{
+	list-style: none; /*7*/
+	float: left; /*9*/
+}
+.menu ul li a{
+	display: inline-block; /*15*/
+	text-decoration: none; /*8*/
+	padding: 4px 25px; /*10*/
+	font-family: sans-serif; /*11*/
+	font-size: 16px; /*12*/
+	font-weight: 500; /*13*/
+	color: darkblue; /*14*/
+}
+.menu ul li:last-child a{
+	padding-right: 0; /*18*/
+}
+.menu ul li a:hover {
+	color: #0f66fe; /*19*/
+}
+/*header end*/
+/*banner start*/
+.banner{
+	padding: 60px 0;
+}
+.container2{
+	overflow: hidden;
+	margin: 0 auto;
+	width: 60%;
+	/*border: 1px solid red;*/
+}
+.b_content{
+	text-align: center;
+}
+.b_content h1{
+	font-size: 65px;
+	margin: 0;
+	color: #0f2656;
+	line-height: 80px;
+}
+.b_content h1 span{
+	color: #0f91ff;
+}
+.b_content p{
+	padding: 0 52px;
+	line-height: 30px;
+	margin: 10px 0 20px;
+}
+.b_img{
+	width: 75%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+}
+.b_img img{
+	width: 100%;
+}
+/*banner end*/
+/*feature start*/
+.feature{
+	padding: 60px 0;
+}
+.f_content{}
+.f_left{
+    width: 45%;
+    /*border: 1px solid black;*/
+    float: left;
+    text-align: right;
+    padding: 18px;   
+}
+.f_left h2{
+	margin: 0px 0 0;
+	font-size: 50px;
+	color: #f15767;
+}
+.f_left p{
+    line-height: 24px;
+    margin: 18px 0 0;
+}
+.f_right{
+    width: 45%;
+    /*border: 1px solid black;*/
+    float: right;
+    padding: 18px;
+}
+.f_right h1{
+	margin: 0;
+	color: #0f2656;
+	font-size: 45px;
+}
+/*feature end*/
+/*service start*/
+.service{
+ padding: 60px;
+ /*border: 1px solid red;*/
+}
+.s_content{
+overflow: hidden;
+}
+.single_service{
+  margin-right: 25px;
+  float: left;
+  width: 27%;
+  /* border: 1px solid red; */
+  padding: 50px 31px;
+}
+.single_service:last-child{
+margin-right: 0;
+}
+.pink{
+background-color: #fdebed;
+}
+.green{
+background-color: #ebf9f4;
+}
+.yellow{
+background-color: #fff7e8;
+}
+.s_img{
+
+}
+.s_img img{
+width: 100%;
+}
+.s_h2{
+font-size: 27px;
+margin: 20px 0;
+}
+.s_p{
+margin: 0;
+line-height: 25px;
+}
+
+/*service end*/
+/*footer start*/
+footer{
+padding: 30px 0;
+background-color: #008aff;
+}
+.footer_content{}
+.footer_content p{
+margin: 0;
+text-align: center;
+word-spacing: 3px;
+color: white;
+}
+.footer_content p a{
+	text-decoration: none;
+	font-weight: 600;
+	color: white;
+}
+/*footer end*/
